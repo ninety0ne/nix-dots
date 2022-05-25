@@ -152,7 +152,7 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-exec_always --no-startup-id $HOME/.fehbg
+exec_always --no-startup-id $HOME/.config/nixpkgs/config/walls/.fehbg
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 # exec_always --no-startup-id "picom --experimental-backends" 
 

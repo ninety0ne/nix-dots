@@ -1,0 +1,2 @@
+#!/bin/sh
+/nix/store/4kasdim9i4par762hvpz5lhx3945483w-feh-3.7.2/bin/feh --no-fehbg --bg-fill '/home/ben/.config/nixpkgs/config/walls/space.png' 
