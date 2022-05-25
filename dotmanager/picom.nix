@@ -4,28 +4,23 @@
   services.picom = {
     enable = true; 
 
-    shadowExclude = [
-    ];
-
     extraOptions = ''
       corner-radius = 10;
+
+      rounded-corners-exclude = [
+        "class_g* = 'Polybar'",
+      ];
     '';
     
     shadow = true;
-    #shadow-radius = 12;
-    #shadow-offset-x = -8;
-    #shadow-offset-y = -8;    
 
     fade = true;
     fadeDelta = 5;
     vSync = true;
 
+    backend = "glx";
     experimentalBackends = true;
 
-    #roundedcornersExclude = [
-      #"class_g* = 'Polybar'"
-    #];
- 
     package = pkgs.picom.overrideAttrs(o: {
         src = pkgs.fetchFromGitHub {
           repo = "picom-jonaburg-fix";
