@@ -154,7 +154,7 @@ bindsym $mod+r mode "resize"
 
 exec_always --no-startup-id $HOME/.fehbg
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-exec_always --no-startup-id "picom --experimental-backends" 
+# exec_always --no-startup-id "picom --experimental-backends" 
 
 # Custom styling
 default_border pixel 0

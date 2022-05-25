@@ -5,9 +5,11 @@
 	./packages.nix
 	./fonts.nix
 	./config.nix
-	./i3.nix
-	./neofetch.nix
-	./picom.nix
-	./polybar.nix
+
+  #configs
+	./dotmanager/i3.nix
+	./dotmanager/neofetch.nix
+	./dotmanager/picom.nix
+	./dotmanager/polybar.nix
   ];
 }

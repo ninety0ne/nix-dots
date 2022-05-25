@@ -3,7 +3,7 @@
 {
   home.file = {
     "neofetch" = {
-      source = ./config/neofetch/config.conf;
+      source = ../config/neofetch/config.conf;
       target = "./.config/neofetch/config.conf";
     };
   };
