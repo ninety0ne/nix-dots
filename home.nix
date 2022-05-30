@@ -11,5 +11,6 @@
 	./dotmanager/neofetch.nix
 	./dotmanager/picom.nix
 	./dotmanager/polybar.nix
+	./dotmanager/kitty.nix
   ];
 }

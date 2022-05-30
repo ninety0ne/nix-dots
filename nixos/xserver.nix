@@ -22,6 +22,9 @@
   # Enable bluetooth
   hardware.bluetooth.enable = true;
 
+  # Enable brightness control
+  programs.light.enable = true;
+
   # Enable touchpad support (enabled default in most desktopManager).
    services.xserver.libinput.enable = true;
 }

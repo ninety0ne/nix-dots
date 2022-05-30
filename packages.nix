@@ -13,7 +13,6 @@
 	# Utils
 	rofi
 	maim
-	light
 	xclip
 	feh
 	ueberzug
