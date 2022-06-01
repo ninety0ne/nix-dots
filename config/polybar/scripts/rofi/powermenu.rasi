@@ -1,5 +1,5 @@
 configuration {
-	font:							"monospace 9";
+	font:							"monospace 12";
     drun-display-format:            "{name}";
     disable-history:                false;
     fullscreen:                     false;
@@ -34,7 +34,7 @@ textbox-prompt-colon {
 	background-color: 				@al;
 	text-color: 					@bar;
 	expand: false;
-	str: "";
+	str: "";
 }
 
 entry {

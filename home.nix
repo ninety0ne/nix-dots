@@ -2,15 +2,17 @@
 
 {
   imports = [
-	./packages.nix
-	./fonts.nix
-	./config.nix
+	  ./packages.nix
+	  ./fonts.nix
+	  ./config.nix
 
-  #configs
-	./dotmanager/i3.nix
-	./dotmanager/neofetch.nix
-	./dotmanager/picom.nix
-	./dotmanager/polybar.nix
-	./dotmanager/kitty.nix
+    #configs
+	  ./dotmanager/i3.nix
+	  ./dotmanager/neofetch.nix
+	  ./dotmanager/picom.nix
+	  ./dotmanager/polybar.nix
+	  ./dotmanager/kitty.nix
+	  ./dotmanager/dunst.nix
+	  ./dotmanager/rofi.nix
   ];
 }

@@ -2,31 +2,36 @@
 
 {
   nixpkgs.config = {
-	allowUnfree = true;
-	nativeOnly = true;
+	  allowUnfree = true;
+	  nativeOnly = true;
   };
 
   home.packages = with pkgs; [
-	# Bar
-	polybar
+	  # Bar
+	  polybar
 
-	# Utils
-	rofi
-	maim
-	xclip
-	feh
-	ueberzug
-  pywal
-  betterlockscreen
+	  # Utils
+	  rofi
+	  maim
+	  xclip
+	  feh
+	  ueberzug
+    pywal
+    betterlockscreen
+    dunst
 
-	# Browser
-	firefox
+    # Icon themes
+    papirus-icon-theme
 
-	# Commandline stuffs
-	kitty
-	neofetch
-	htop
-	ranger
-	pulsemixer
+	  # Essentials 
+	  firefox
+    discord
+
+	  # Commandline stuffs
+	  kitty
+	  neofetch
+	  gotop
+	  ranger
+	  pulsemixer
   ];
 }
